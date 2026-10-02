@@ -7,7 +7,7 @@ def generate_goat_data(filename="data/goat_ledger.csv"):
     """Simulates a simple 10-goat tracking ledger."""
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
-    # Fixed seed for reproducible data vectors
+    # Set a constant random seed to ensure reproducible data vectors.
     np.random.seed(50)
 
     goat_ids = [f"Goat_{i:03d}" for i in range(1, 11)]
@@ -24,7 +24,7 @@ def generate_goat_data(filename="data/goat_ledger.csv"):
         "Ewu hausa",
     ]
 
-    # Generate daily feed intake in kg (typically 1.5kg to 3.5kg)
+    # Generate data for daily feed mass eaten, typically 1.5 to 3.5 kg.
     feed_intake = np.round(np.random.uniform(1.5, 3.5, size=len(goat_ids)), 2)
 
     # Generate daily weight gain in kg (typically 0.1kg to 0.4kg)
