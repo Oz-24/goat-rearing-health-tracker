@@ -1,4 +1,4 @@
-## Smart Livestock Health & Feed Efficiency Tracker
+# Smart Livestock Health & Feed Efficiency Tracker
 
 A lightweight, data-driven livestock monitoring script built using Python, Pandas, and NumPy. This repository serves as a portfolio project demonstrating foundational analytics workflows.
 
