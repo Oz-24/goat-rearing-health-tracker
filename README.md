@@ -3,7 +3,7 @@
 A lightweight, data-driven livestock monitoring script built using Python, Pandas, and NumPy. This repository serves as a portfolio project demonstrating foundational analytics workflows.
 
 ## Project Motivation
-In livestock management and sustainable farming, tracking animal Feed Conversion Ratios (FCR) is critical. FCR measures an animal's efficiency in converting feed mass into desired body weight. This application ingests herd health logs, cleans structural records containing missing field data points, and utilizes fast vectorized array transformations to dynamically highlight anomalous animal metabolic data patterns without using slow loop code blocks.
+In livestock management and sustainable farming, tracking animal Feed Conversion Ratios (FCR) is critical. FCR measures an animal's efficiency in converting feed mass into desired body weight. This application ingests herd health logs, cleans structural records containing missing field data points, and utilizes fast vectorized array transformations to dynamically highlight anomalous animal metabolic data patterns without using slow loop code blocks
 
 ## Key Technical Implementations
 
